@@ -109,15 +109,20 @@ li a:hover {
   box-sizing: border-box;
 }
 
-/* Create two equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
 }
-
-/* Clear floats after the columns */
+.left{
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 300px; 
+}
+  .right{
+  float: right;
+  width: 80%;
+  padding: 10px;
+  height: 300px;
+  }
+   
 .row:after {
   content: "";
   display: table;
@@ -135,7 +140,7 @@ li a:hover {
     <p>Some text..</p>
   </div>
   <div class="column" style="background-color:firebrick;">
-    <iframe width="420" height="500" src="https://www.youtube.com/embed/9PJgb3R9Dws">
+    <iframe width="500" height="500" src="https://www.youtube.com/embed/9PJgb3R9Dws">
 </iframe>
 
 
