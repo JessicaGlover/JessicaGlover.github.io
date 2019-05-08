@@ -109,29 +109,23 @@ li a:hover {
   box-sizing: border-box;
 }
 
-/* Create two equal columns that floats next to each other */
-.column {
+.left{
   float: left;
-  width: 30%;
+  width: 20%;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  height: 300px; 
 }
-   .column {
+  .right{
   float: right;
-  width: 70%;
+  width: 80%;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
-
-/* Clear floats after the columns */
+  height: 300px;
+  }
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
-</style>
-</head>
-<body>
 <div class="row">
   <div class="left" style="background-color:white;">
    <iframe width="500" height="500" src="https://www.youtube.com/embed/9PJgb3R9Dws">
@@ -140,7 +134,6 @@ li a:hover {
   </div>
   <div class="right" style="background-color:firebrick;">
      <h2>Welcome to Emporium Pies</h2>
-    <p>Some text..</p>
   </div>
    </div>
   </div>
