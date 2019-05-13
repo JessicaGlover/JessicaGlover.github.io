@@ -2,43 +2,44 @@
 <body>
 <head>
 <title>Emporium Pies</title>
-</head>
-<body>
 
-<title>Emporium Pies - Home</title>
-   
-<head>
-  
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
+   * {
   box-sizing: border-box;
 }
-.left{
+
+/* Create two unequal columns that floats next to each other */
+.column {
   float: left;
-  width: 20%;
   padding: 10px;
 }
-  .right{
-  float: right;
-  width: 80%;
-  padding: 10px;
-  }
+
+.left {
+  width: 30%;
+}
+
+.right {
+  width: 70%;
+}
+
+/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
-  ul {
+
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
 }
+
 li {
   float: left;
 }
+
 li a {
   display: block;
   color: white;
@@ -46,13 +47,34 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
+
 li a:hover:not(.active) {
   background-color: #111;
 }
+
 .active {
   background-color: #4CAF50;
 }
-</style>
+
+.center {
+  text-align: center;
+}
+
+body {
+  max-width:900px;
+  margin:auto;
+  font-family: 'Open Sans', sans-serif;
+}
+   
+   </head>
+<body>
+
+<title>Emporium Pies - Home</title>
+   
+<head>
+  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
   <Main>
 <div class="row">
@@ -68,28 +90,7 @@ li a:hover:not(.active) {
    <body>
      <html>
 <head>
-<style>
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-li {
-  float: left;
-}
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 19px;
-  text-decoration: none;
-}
-li a:hover {
-  background-color: #111;
-}
-</style>
+
 </head>
 <body>
 
@@ -99,23 +100,7 @@ li a:hover {
   <li><a href="/final/contact.html">Contact Us</a></li>
 </ul>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-/* Create two equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-}
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-</style>
+
 </head>
 <body>
 <div class="row">
@@ -125,11 +110,7 @@ li a:hover {
 
   </div>
   <div class="column" style="background-color:firebrick;">
-     <style>
-.center {
-  text-align: center;
-}
-</style>
+ 
 </head>
 <body>
 <div class="center">
@@ -139,24 +120,7 @@ li a:hover {
 </div>
   </div>  
    <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
- 
-}
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-</style>
+
 </head>
 <body>
 
