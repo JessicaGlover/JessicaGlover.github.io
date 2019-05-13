@@ -14,7 +14,35 @@
 * {
   box-sizing: border-box;
 }
-.left{
+<style>
+   .center {
+  text-align: center;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 19px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+   
+   .left{
   float: left;
   width: 20%;
   padding: 10px;
@@ -70,31 +98,7 @@ li a:hover:not(.active) {
    <body>
      <html>
 <head>
-<style>
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
 
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 19px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #111;
-}
-</style>
 </head>
 <body>
 
@@ -131,16 +135,12 @@ li a:hover {
 <body>
 <div class="row">
   <div class="left" style="background-color:white;">
-    <iframe width="500" height="500" src="https://www.youtube.com/embed/9PJgb3R9Dws">
+    <iframe width="100%"  src="https://www.youtube.com/embed/9PJgb3R9Dws">
 </iframe>
 
   </div>
   <div class="right" style="background-color:firebrick;">
-     <style>
-.center {
-  text-align: center;
-}
-</style>
+ 
 </head>
 <body>
 <div class="center">
